@@ -15,8 +15,6 @@ fn main()
 	for {
 		operation = input("What would you like to do?\n(1) Create products\n(2) View cart\n(3) View available products\n(4) Add to cart\n(0) End program\nChoose:  ")
 
-		// println("------------------------------------------------------------------------------")
-
 		if operation == "0" {
 			break
 		}else if operation == "1" {
@@ -34,8 +32,6 @@ fn main()
 		}else {
 			continue
 		}
-
-		// println("------------------------------------------------------------------------------")
 	}
 
 }
